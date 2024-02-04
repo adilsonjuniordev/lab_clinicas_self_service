@@ -1,4 +1,4 @@
-# Lab Clinicas Mobile App (Flutter Experience)
+# Lab Clinicas Mobile - App (Flutter Experience)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-flutter.svg)](http://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](http://forthebadge.com)
