@@ -12,7 +12,7 @@ Projeto desenvolvido em 01/2024, utilizando o Flutter, com o intuito de aprimora
 
 **Mobile:** Flutter (SDK versão inicial: 3.16.9)
 
-## Packages utilizados no Core
+## Packages utilizados no App
 
 | Package                    | Versão | Descrição                                         |
 | :----------------          | :----- | :------------------------------------------------ |
