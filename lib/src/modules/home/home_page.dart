@@ -14,8 +14,8 @@ class HomePage extends StatelessWidget {
             child: const IconPopupMenuWidget(),
             itemBuilder: (context) {
               return [
-                const PopupMenuItem<int>(child: Text('Iniciar Terminal'), value: 1),
-                const PopupMenuItem<int>(child: Text('Finalizar Terminal'), value: 1),
+                const PopupMenuItem<int>(value: 1, child: Text('Iniciar Terminal')),
+                const PopupMenuItem<int>(value: 1, child: Text('Finalizar Terminal')),
               ];
             },
           )
@@ -41,7 +41,9 @@ class HomePage extends StatelessWidget {
                 height: 48,
                 width: sizeOf.width * 0.8,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.of(context).pushReplacementNamed('/self-service');
+                  },
                   child: const Text('INICIAR TERMINAL'),
                 ),
               )
